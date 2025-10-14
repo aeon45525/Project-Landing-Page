@@ -2,7 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
 body {
     font-family: 'Roboto';
+    margin: 0;
 
+    /* text-align: center; */
     /* display: flex;
     flex-direction: column;
     justify-content: space-between; */
@@ -10,8 +12,8 @@ body {
 
 /* HEADER */
 .header {
-    height: 72px;
-    color: white;
+    height: 40px;
+    color: #F9FAF8;
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
@@ -25,7 +27,7 @@ body {
 
 .links {
     display: flex;
-    gap: 16px;
+    gap: 18px;
 }
 
 ul {
@@ -36,6 +38,15 @@ ul {
 
 a {
     text-decoration: none;
-    color: white;
+    color: #E5E7EB;
     font-size: 18px;
+}
+
+/* FOOTER */
+.footer{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 10px;
+    font-size: smaller;
+    text-align: center;
 }
