@@ -5,7 +5,7 @@ body {
     
     /* display: flex;
     flex-direction: column;
-    flex: 1; */
+    justify-content: space-between; */
 }
 
 .header,
@@ -132,4 +132,45 @@ p {
     font-weight: 900;;
     text-align: right;
     width: 100%;
+}
+
+/* CALL-ACTION */
+.call-action {
+    display: flex;
+    justify-content: center;
+    color: #f9faf8;
+    margin: 20px 0px;
+}
+
+.container1 {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 10px 60px;
+    border-radius: 10px;
+}
+
+.container2 {
+    padding: 20px 0px;
+}
+
+.call-action h2 {
+    margin: 0;
+    font-size: large;
+}
+
+.call-action p {
+    margin: 0;
+    font-size: small;
+}
+
+.call-action button {
+    align-self: center;
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 4px 12px;
+    font-weight: 900;
+    border: 2px solid #f9faf8;
 }
